@@ -34,9 +34,9 @@ To make things more efficient, a controller must have  synchronized all the vari
 In this part i modify a control class and i put in the `run();` method a funtion that wait all the primes and calculate the size of the list, then i put a wait in the `PrimeFinderThread` class that funtion for stop the threads a wait that the next primes are calculate, then i put a notify for the threads are unlock.
 ### Part 3
 
- - Possible race conditions
+ - 1.Possible race conditions
 	 - 	That two sankes find the same mouse at the same time.
 	-	That two snakes find the same power at the same time.
- - when i increase the game speeed  the progam generate a error because the snakes are accessing toa list at the same time that want delete them. 
- - To create more race conditions i  synchronized all the body when the snake is draw.
- - i modify the project a put the required funtions and the game funtion of  the correct way.
+ - 2.when i increase the game speeed  the progam generate a error because the snakes are accessing toa list at the same time that want delete them. 
+ - 3.To create more race conditions and put a critical session and synchronized all the body when the snakes are draw.
+ - 4.I modify the project a put the required funtions and the game run of the correct way.
