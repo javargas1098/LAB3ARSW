@@ -6,7 +6,7 @@
 ## Black List Search
 
 ### Part I - Introduction to threads in JAVA
-In this exercise i create a simple lifecycle from a thread when i use a loop to read the parameters then i the code print each number in the sequence tha arrives; when i execute the threads using `start()` method  the sequence of the numbers dont have a particular order but when i use `run();` method  the number are print in the expected order.
+In this exercise i create a simple lifecycle from a thread when i use a loop to read the parameters then i the code print each number in the sequence tha arrives; when i execute the threads using `start();` method  the sequence of the numbers dont have a particular order but when i use `run();` method  the number are print in the expected order.
 The diference between `run();` and `start();`is that run(); directly, it runs on the call thread, and start(); create a new thread instance.
 
 ### Part II - Black List Search Exercise
