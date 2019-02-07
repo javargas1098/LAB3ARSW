@@ -27,6 +27,7 @@ To make things more efficient, a controller must have  synchronized all the vari
 ![foto](imagenes/4.png)
 #### Eight threads
 ![foto](imagenes/5.png)
+ - When i use many machines with many processors the program should have improve the  performance, to that if we use a simple machine, because the charge will be distributed in the diferent machines and this shoud have to improve the ejecution.
 
 ## Snake Race
 
