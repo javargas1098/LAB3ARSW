@@ -36,7 +36,7 @@ In this part i modify a control class and i put in the `run();` method a funtion
 ### Part 3
 
  - 1.Possible race conditions
-	 - 	That two sankes find the same mouse at the same time.
+	 - 	That two snakes find the same mouse at the same time.
 	-	That two snakes find the same power at the same time.
  - 2.when i increase the game speeed  the progam generate a error because the snakes are accessing toa list at the same time that want delete them. 
  - 3.To create more race conditions and put a critical session and synchronized all the body when the snakes are draw.
